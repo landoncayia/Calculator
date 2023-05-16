@@ -19,3 +19,9 @@ const operate = function (operator, num1, num2) {
       return undefined;
   }
 };
+
+exports.add = add;
+exports.subtract = subtract;
+exports.multiply = multiply;
+exports.divide = divide;
+exports.operate = operate;
